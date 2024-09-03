@@ -1,0 +1,174 @@
+[2024-08-29T20:11:28.477+0000] {processor.py:157} INFO - Started process (PID=56243) to work on /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:11:28.478+0000] {processor.py:826} INFO - Processing file /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py for tasks to queue
+[2024-08-29T20:11:28.479+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:11:28.479+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:11:28.489+0000] {processor.py:836} INFO - DAG(s) dict_keys(['1__ingestion']) retrieved from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:11:28.603+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:11:28.603+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:1__ingestion
+[2024-08-29T20:11:28.621+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:11:28.620+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:1__ingestion
+[2024-08-29T20:11:28.637+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:11:28.637+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:1__ingestion
+[2024-08-29T20:11:28.637+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:11:28.637+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-08-29T20:11:28.648+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:11:28.648+0000] {dag.py:2747} INFO - Creating ORM DAG for 1__ingestion
+[2024-08-29T20:11:28.657+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:11:28.657+0000] {dag.py:3486} INFO - Setting next_dagrun for 1__ingestion to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2024-08-29T20:11:28.684+0000] {processor.py:179} INFO - Processing /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py took 0.209 seconds
+[2024-08-29T20:12:14.608+0000] {processor.py:157} INFO - Started process (PID=56547) to work on /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:12:14.608+0000] {processor.py:826} INFO - Processing file /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py for tasks to queue
+[2024-08-29T20:12:14.609+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:12:14.609+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:12:14.614+0000] {processor.py:836} INFO - DAG(s) dict_keys(['1__ingestion']) retrieved from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:12:14.631+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:12:14.630+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-08-29T20:12:14.651+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:12:14.651+0000] {dag.py:3486} INFO - Setting next_dagrun for 1__ingestion to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2024-08-29T20:12:14.677+0000] {processor.py:179} INFO - Processing /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py took 0.072 seconds
+[2024-08-29T20:12:45.504+0000] {processor.py:157} INFO - Started process (PID=56763) to work on /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:12:45.504+0000] {processor.py:826} INFO - Processing file /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py for tasks to queue
+[2024-08-29T20:12:45.505+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:12:45.505+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:12:45.510+0000] {processor.py:836} INFO - DAG(s) dict_keys(['1__ingestion']) retrieved from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:12:45.527+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:12:45.527+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-08-29T20:12:45.546+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:12:45.546+0000] {dag.py:3486} INFO - Setting next_dagrun for 1__ingestion to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2024-08-29T20:12:45.572+0000] {processor.py:179} INFO - Processing /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py took 0.070 seconds
+[2024-08-29T20:13:29.593+0000] {processor.py:157} INFO - Started process (PID=56959) to work on /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:13:29.594+0000] {processor.py:826} INFO - Processing file /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py for tasks to queue
+[2024-08-29T20:13:29.594+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:13:29.594+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:13:29.599+0000] {processor.py:836} INFO - DAG(s) dict_keys(['1__ingestion']) retrieved from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:13:29.615+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:13:29.615+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-08-29T20:13:29.635+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:13:29.635+0000] {dag.py:3486} INFO - Setting next_dagrun for 1__ingestion to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2024-08-29T20:13:29.661+0000] {processor.py:179} INFO - Processing /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py took 0.071 seconds
+[2024-08-29T20:14:57.056+0000] {processor.py:157} INFO - Started process (PID=57318) to work on /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:14:57.057+0000] {processor.py:826} INFO - Processing file /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py for tasks to queue
+[2024-08-29T20:14:57.057+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:14:57.057+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:14:57.066+0000] {processor.py:836} INFO - DAG(s) dict_keys(['1__ingestion']) retrieved from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:14:57.086+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:14:57.086+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-08-29T20:14:57.106+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:14:57.106+0000] {dag.py:3486} INFO - Setting next_dagrun for 1__ingestion to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2024-08-29T20:14:57.132+0000] {processor.py:179} INFO - Processing /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py took 0.079 seconds
+[2024-08-29T20:15:41.745+0000] {processor.py:157} INFO - Started process (PID=57823) to work on /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:15:41.746+0000] {processor.py:826} INFO - Processing file /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py for tasks to queue
+[2024-08-29T20:15:41.746+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:15:41.746+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:15:41.753+0000] {processor.py:836} INFO - DAG(s) dict_keys(['1__ingestion']) retrieved from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:15:41.773+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:15:41.773+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-08-29T20:15:41.796+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:15:41.796+0000] {dag.py:3486} INFO - Setting next_dagrun for 1__ingestion to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2024-08-29T20:15:41.831+0000] {processor.py:179} INFO - Processing /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py took 0.089 seconds
+[2024-08-29T20:16:13.745+0000] {processor.py:157} INFO - Started process (PID=58007) to work on /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:16:13.746+0000] {processor.py:826} INFO - Processing file /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py for tasks to queue
+[2024-08-29T20:16:13.747+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:16:13.746+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:16:13.751+0000] {processor.py:836} INFO - DAG(s) dict_keys(['1__ingestion']) retrieved from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:16:13.768+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:16:13.768+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-08-29T20:16:13.788+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:16:13.788+0000] {dag.py:3486} INFO - Setting next_dagrun for 1__ingestion to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2024-08-29T20:16:13.815+0000] {processor.py:179} INFO - Processing /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py took 0.072 seconds
+[2024-08-29T20:23:22.116+0000] {processor.py:157} INFO - Started process (PID=60490) to work on /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:23:22.124+0000] {processor.py:826} INFO - Processing file /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py for tasks to queue
+[2024-08-29T20:23:22.124+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:23:22.124+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:23:22.138+0000] {processor.py:836} INFO - DAG(s) dict_keys(['1__ingestion']) retrieved from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:23:22.148+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:23:22.147+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-08-29T20:23:22.174+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:23:22.174+0000] {dag.py:3486} INFO - Setting next_dagrun for 1__ingestion to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2024-08-29T20:23:22.220+0000] {processor.py:179} INFO - Processing /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py took 0.107 seconds
+[2024-08-29T20:25:20.295+0000] {processor.py:157} INFO - Started process (PID=61949) to work on /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:25:20.296+0000] {processor.py:826} INFO - Processing file /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py for tasks to queue
+[2024-08-29T20:25:20.296+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:25:20.296+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:25:20.302+0000] {processor.py:836} INFO - DAG(s) dict_keys(['1__ingestion']) retrieved from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:25:20.318+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:25:20.318+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-08-29T20:25:20.339+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:25:20.339+0000] {dag.py:3486} INFO - Setting next_dagrun for 1__ingestion to 2022-02-01T00:00:00+00:00, run_after=2022-02-02T00:00:00+00:00
+[2024-08-29T20:25:20.366+0000] {processor.py:179} INFO - Processing /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py took 0.073 seconds
+[2024-08-29T20:26:40.738+0000] {processor.py:157} INFO - Started process (PID=62984) to work on /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:26:40.739+0000] {processor.py:826} INFO - Processing file /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py for tasks to queue
+[2024-08-29T20:26:40.740+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:26:40.740+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:26:40.742+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:26:40.741+0000] {dagbag.py:350} ERROR - Failed to import: /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow-vm/data-engineer-batch-processing-financial-services/.venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py", line 18
+    with open('aw.csv', 'w')
+                            ^
+SyntaxError: expected ':'
+[2024-08-29T20:26:40.742+0000] {processor.py:838} WARNING - No viable dags retrieved from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:26:40.766+0000] {processor.py:179} INFO - Processing /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py took 0.031 seconds
+[2024-08-29T20:27:23.748+0000] {processor.py:157} INFO - Started process (PID=63409) to work on /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:27:23.749+0000] {processor.py:826} INFO - Processing file /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py for tasks to queue
+[2024-08-29T20:27:23.749+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:27:23.749+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:27:23.752+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:27:23.751+0000] {dagbag.py:350} ERROR - Failed to import: /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow-vm/data-engineer-batch-processing-financial-services/.venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py", line 18
+    with open('aw.csv', 'w')
+                            ^
+SyntaxError: expected ':'
+[2024-08-29T20:27:23.752+0000] {processor.py:838} WARNING - No viable dags retrieved from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:27:23.777+0000] {processor.py:179} INFO - Processing /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py took 0.031 seconds
+[2024-08-29T20:28:07.163+0000] {processor.py:157} INFO - Started process (PID=63567) to work on /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:28:07.164+0000] {processor.py:826} INFO - Processing file /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py for tasks to queue
+[2024-08-29T20:28:07.165+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:28:07.165+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:28:07.167+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:28:07.166+0000] {dagbag.py:350} ERROR - Failed to import: /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+Traceback (most recent call last):
+  File "/home/airflow-vm/data-engineer-batch-processing-financial-services/.venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py", line 18
+    with open('aw.csv', 'w')
+                            ^
+SyntaxError: expected ':'
+[2024-08-29T20:28:07.167+0000] {processor.py:838} WARNING - No viable dags retrieved from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:28:07.192+0000] {processor.py:179} INFO - Processing /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py took 0.031 seconds
+[2024-08-29T20:28:35.805+0000] {processor.py:157} INFO - Started process (PID=63781) to work on /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:28:35.805+0000] {processor.py:826} INFO - Processing file /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py for tasks to queue
+[2024-08-29T20:28:35.806+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:28:35.806+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:28:35.812+0000] {processor.py:836} INFO - DAG(s) dict_keys(['1__ingestion']) retrieved from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:28:35.854+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:28:35.854+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-08-29T20:28:35.872+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:28:35.872+0000] {dag.py:3486} INFO - Setting next_dagrun for 1__ingestion to 2022-02-23T23:10:00+00:00, run_after=2022-02-24T00:10:00+00:00
+[2024-08-29T20:28:35.916+0000] {processor.py:179} INFO - Processing /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py took 0.114 seconds
+[2024-08-29T20:29:16.331+0000] {processor.py:157} INFO - Started process (PID=64289) to work on /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:29:16.332+0000] {processor.py:826} INFO - Processing file /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py for tasks to queue
+[2024-08-29T20:29:16.333+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:29:16.332+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:29:16.338+0000] {processor.py:836} INFO - DAG(s) dict_keys(['1__ingestion']) retrieved from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:29:16.354+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:29:16.354+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-08-29T20:29:16.374+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:29:16.374+0000] {dag.py:3486} INFO - Setting next_dagrun for 1__ingestion to 2022-02-24T10:10:00+00:00, run_after=2022-02-24T11:10:00+00:00
+[2024-08-29T20:29:16.400+0000] {processor.py:179} INFO - Processing /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py took 0.071 seconds
+[2024-08-29T20:30:25.836+0000] {processor.py:157} INFO - Started process (PID=64972) to work on /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:30:25.839+0000] {processor.py:826} INFO - Processing file /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py for tasks to queue
+[2024-08-29T20:30:25.840+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:30:25.840+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:30:25.856+0000] {processor.py:836} INFO - DAG(s) dict_keys(['1__ingestion']) retrieved from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:30:25.874+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:30:25.874+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-08-29T20:30:25.916+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:30:25.915+0000] {dag.py:3486} INFO - Setting next_dagrun for 1__ingestion to 2022-02-24T10:59:00+00:00, run_after=2022-02-25T10:00:00+00:00
+[2024-08-29T20:30:25.961+0000] {processor.py:179} INFO - Processing /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py took 0.127 seconds
+[2024-08-29T20:32:17.325+0000] {processor.py:157} INFO - Started process (PID=66377) to work on /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:32:17.326+0000] {processor.py:826} INFO - Processing file /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py for tasks to queue
+[2024-08-29T20:32:17.327+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:32:17.327+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:32:17.332+0000] {processor.py:836} INFO - DAG(s) dict_keys(['1__ingestion']) retrieved from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:32:17.348+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:32:17.348+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-08-29T20:32:17.369+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:32:17.369+0000] {dag.py:3486} INFO - Setting next_dagrun for 1__ingestion to 2022-02-25T10:30:00+00:00, run_after=2022-02-25T10:31:00+00:00
+[2024-08-29T20:32:17.395+0000] {processor.py:179} INFO - Processing /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py took 0.072 seconds
+[2024-08-29T20:33:41.421+0000] {processor.py:157} INFO - Started process (PID=67409) to work on /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:33:41.421+0000] {processor.py:826} INFO - Processing file /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py for tasks to queue
+[2024-08-29T20:33:41.422+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:33:41.422+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:33:41.427+0000] {processor.py:836} INFO - DAG(s) dict_keys(['1__ingestion']) retrieved from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:33:41.470+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:33:41.470+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-08-29T20:33:41.490+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:33:41.490+0000] {dag.py:3486} INFO - Setting next_dagrun for 1__ingestion to 2022-02-25T10:50:00+00:00, run_after=2022-02-25T10:55:00+00:00
+[2024-08-29T20:33:41.520+0000] {processor.py:179} INFO - Processing /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py took 0.102 seconds
+[2024-08-29T20:34:50.651+0000] {processor.py:157} INFO - Started process (PID=68326) to work on /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:34:50.653+0000] {processor.py:826} INFO - Processing file /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py for tasks to queue
+[2024-08-29T20:34:50.653+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:34:50.653+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:34:50.663+0000] {processor.py:836} INFO - DAG(s) dict_keys(['1__ingestion']) retrieved from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:34:50.678+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:34:50.678+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-08-29T20:34:50.726+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:34:50.725+0000] {dag.py:3486} INFO - Setting next_dagrun for 1__ingestion to 2022-02-25T12:10:00+00:00, run_after=2022-02-25T12:15:00+00:00
+[2024-08-29T20:34:50.786+0000] {processor.py:179} INFO - Processing /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py took 0.142 seconds
+[2024-08-29T20:36:48.322+0000] {processor.py:157} INFO - Started process (PID=69805) to work on /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:36:48.323+0000] {processor.py:826} INFO - Processing file /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py for tasks to queue
+[2024-08-29T20:36:48.323+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:36:48.323+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:36:48.329+0000] {processor.py:836} INFO - DAG(s) dict_keys(['1__ingestion']) retrieved from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:36:48.345+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:36:48.345+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-08-29T20:36:48.367+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:36:48.367+0000] {dag.py:3486} INFO - Setting next_dagrun for 1__ingestion to 2022-02-25T14:45:00+00:00, run_after=2022-02-25T14:50:00+00:00
+[2024-08-29T20:36:48.393+0000] {processor.py:179} INFO - Processing /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py took 0.074 seconds
+[2024-08-29T20:38:12.705+0000] {processor.py:157} INFO - Started process (PID=70820) to work on /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:38:12.705+0000] {processor.py:826} INFO - Processing file /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py for tasks to queue
+[2024-08-29T20:38:12.706+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:38:12.706+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:38:12.711+0000] {processor.py:836} INFO - DAG(s) dict_keys(['1__ingestion']) retrieved from /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py
+[2024-08-29T20:38:12.727+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:38:12.727+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-08-29T20:38:12.748+0000] {logging_mixin.py:149} INFO - [2024-08-29T20:38:12.748+0000] {dag.py:3486} INFO - Setting next_dagrun for 1__ingestion to 2022-02-25T16:40:00+00:00, run_after=2022-02-25T16:45:00+00:00
+[2024-08-29T20:38:12.774+0000] {processor.py:179} INFO - Processing /home/airflow-vm/data-engineer-batch-processing-financial-services/airflow/dags/ingestion.py took 0.071 seconds

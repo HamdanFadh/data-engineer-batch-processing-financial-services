@@ -1,0 +1,13 @@
+[2024-09-03T11:34:03.202+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 1__ingestion.export scheduled__2024-09-02T17:09:00+00:00 [queued]>
+[2024-09-03T11:34:03.209+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 1__ingestion.export scheduled__2024-09-02T17:09:00+00:00 [queued]>
+[2024-09-03T11:34:03.209+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-09-03T11:34:03.233+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): export> on 2024-09-02 17:09:00+00:00
+[2024-09-03T11:34:03.238+0000] {standard_task_runner.py:57} INFO - Started process 20331 to run task
+[2024-09-03T11:34:03.241+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', '1__ingestion', 'export', 'scheduled__2024-09-02T17:09:00+00:00', '--job-id', '760', '--raw', '--subdir', 'DAGS_FOLDER/ingestion.py', '--cfg-path', '/tmp/tmpk_ipcy4k']
+[2024-09-03T11:34:03.242+0000] {standard_task_runner.py:85} INFO - Job 760: Subtask export
+[2024-09-03T11:34:03.287+0000] {task_command.py:410} INFO - Running <TaskInstance: 1__ingestion.export scheduled__2024-09-02T17:09:00+00:00 [running]> on host airflow.p5gcuddgvhqutph3bove52popc.rx.internal.cloudapp.net
+[2024-09-03T11:34:03.439+0000] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='1__ingestion' AIRFLOW_CTX_TASK_ID='export' AIRFLOW_CTX_EXECUTION_DATE='2024-09-02T17:09:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-09-02T17:09:00+00:00'
+[2024-09-03T11:34:03.449+0000] {python.py:183} INFO - Done. Returned value was: None
+[2024-09-03T11:34:03.453+0000] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=1__ingestion, task_id=export, execution_date=20240902T170900, start_date=20240903T113403, end_date=20240903T113403
+[2024-09-03T11:34:03.504+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-09-03T11:34:03.518+0000] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check
